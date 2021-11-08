@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% block title %}Titre par défaut{% endblock %}</title>
+    <title>{% block title %}{% endblock %}</title>
 
     <link rel="stylesheet" href="/assets/css/style.css"> 
     <link rel="icon" href="/assets/images/favicon.png">
@@ -14,5 +14,6 @@
 
 <body>
     {% block content %}{% endblock %}
+    {% include './_footer.html.twig' %}
 </body>
 </html>
