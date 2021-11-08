@@ -1,2 +1,3 @@
-# Twig3
-Quête 3
+# Content:
+- Include a twig component
+- Use of twig->addGlobal()
